@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Source Sans Pro', Arial, sans-serif;
 }
 
 .layout{
@@ -25,8 +26,8 @@
 
 .search span {
     position: absolute;
-    left: 13%;
-    top: 4%;
+    left: 100%;
+    top: 30%;
 }
 
 .searchForm input{
@@ -34,14 +35,17 @@
     min-height: 2.75em;
     height: 100%;
     width: 100%;
-    position: relative;
     font-family: 'Roboto Slab', serif;
 }
 
-
+.searchForm {
+    position: relative;
+}
 
 .menu{
     margin-top: 60px;
+    border-bottom: solid 2px rgba(210, 215, 217, 0.75);
+    padding: 0 0 3.5em 0;
 }
 
 .menu h2{
@@ -357,3 +361,126 @@ article span{
     width: 100%;
     margin-top: 2em;
   }
+
+  .banner-images{
+    margin-top: 3.5em;
+    width: 100%;
+  }
+  .banner-images h2{
+    border-bottom: solid 3px #f56a6a;
+    display: inline-block;
+    margin: 0 0 2em 0;
+    padding: 0 0.75em 0.5em 0;
+    color: #3d4449;
+    font-family: "Roboto Slab", serif;
+    font-weight: 700;
+    line-height: 1.5;
+  }
+  .banner-images__image{
+    border-bottom: solid 2px rgba(210, 215, 217, 0.75);
+    margin-bottom: 2em;
+    padding-bottom: 2em;
+  }
+
+  .banner-images__image img{
+    border-radius: 0.375em;
+    margin-bottom: 1.5em;
+  }
+
+  .banner-images__image p{
+    font-family: "Roboto Slab", serif;
+    font-size: 1em;
+    letter-spacing: 0.075em;
+    color: #7f888f;
+    margin-bottom: 32px;
+  }
+
+  .banner-images__image a{
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    background-color: transparent;
+    border-radius: 0.375em;
+    border: 0;
+    box-shadow: inset 0 0 0 2px #f56a6a;
+    color: #f56a6a !important;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Roboto Slab", serif;
+    font-size: 0.8em;
+    font-weight: 700;
+    height: 3.5em;
+    letter-spacing: 0.075em;
+    line-height: 3.5em;
+    padding: 0 2.25em;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    white-space: nowrap;
+    width: fit-content;
+  }
+
+  .contact-info h2{
+    border-bottom: solid 3px #f56a6a;
+    display: inline-block;
+    margin: 0 0 2em 0;
+    padding: 0 0.75em 0.5em 0;
+    color: #3d4449;
+    font-family: "Roboto Slab", serif;
+    font-weight: 700;
+    line-height: 1.5;
+  }
+
+  .contact-info p{
+    font-size: 13px;
+    letter-spacing: 0.075em;
+    color: #7f888f;
+    margin-bottom: 32px;
+  }
+
+  .contact-info a{
+    font-size: 13px;
+    letter-spacing: 0.075em;
+    color: #7f888f;
+    margin-bottom: 32px;
+  }
+
+  .contact-info a:hover{
+    color: #f56a6a;
+    transition: all 150ms;
+  }
+
+  .contact-info ul{
+    list-style: none;
+    font-size: 13px;
+    letter-spacing: 0.075em;
+    color: #7f888f;
+    margin-bottom: 32px;
+  }
+
+  .contact-info i{
+    margin-right: 10px;
+  }
+
+  .contact-info li{
+    margin: 10px 0;
+  }
+
+  .submenu .sub-menu {
+    display: none;
+}
+
+.submenu:hover .sub-menu {
+    display: block;
+}
+
+.sub-menu li {
+    display: block;
+    padding-left: 20px!important;
+}
+
+.sub-menu a{
+    color: #3d4449!important;
+}
+
+.submenu i{
+    margin-left: 50px;
+}
